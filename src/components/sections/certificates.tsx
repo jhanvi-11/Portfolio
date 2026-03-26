@@ -29,7 +29,6 @@ const certificates = [
   { src: "/assets/certificates/computational theory.pdf", title: "Computational Theory", organization: "Online", date: "2023", skills: ["Theory", "Computer Science"] },
   { src: "/assets/certificates/dsa neocolab.pdf", title: "Data Structures & Algorithms", organization: "Neocolab", date: "2023", skills: ["DSA", "Problem Solving"] },
   { src: "/assets/certificates/oops neocolab.pdf", title: "Object Oriented Programming", organization: "Neocolab", date: "2023", skills: ["OOP", "Concepts"] },
-  { src: "/assets/certificates/smg-certificate.pdf", title: "SMG Certificate", organization: "SMG", date: "2023", skills: ["Management"] },
   { src: "/assets/certificates/summer training.pdf", title: "Summer Training", organization: "Institute", date: "2023", skills: ["Training", "Internship"] },
 ];
 
@@ -50,7 +49,7 @@ const FlipperCard = ({ cert, className }: { cert: any, className?: string }) => 
         style={{ transformStyle: "preserve-3d" }}
       >
         {/* Front */}
-        <div 
+        <div
           className="absolute inset-0 w-full h-full bg-slate-200 dark:bg-slate-900 rounded-xl overflow-hidden shadow-lg border border-white/10 flex flex-col items-center justify-center backface-hidden"
           style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
         >
@@ -77,23 +76,23 @@ const FlipperCard = ({ cert, className }: { cert: any, className?: string }) => 
         </div>
 
         {/* Back */}
-        <div 
+        <div
           className="absolute inset-0 w-full h-full bg-slate-100 dark:bg-black/90 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-slate-300 dark:border-[#00ff99]/30 p-6 flex flex-col justify-center items-center text-center text-slate-800 dark:text-white backface-hidden shadow-[0_4px_20px_rgba(0,0,0,0.1)] dark:shadow-[0_0_15px_rgba(0,255,153,0.1)]"
           style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
           <h3 className="text-2xl font-bold mb-6 text-slate-900 dark:text-[#00ff99] drop-shadow-sm dark:drop-shadow-[0_0_8px_rgba(0,255,153,0.5)]">{cert.title}</h3>
-          
+
           <div className="space-y-4 w-full px-4 text-sm md:text-base">
             <div className="flex justify-between items-center border-b border-black/10 dark:border-white/10 pb-2">
               <span className="text-slate-500 dark:text-gray-400 uppercase tracking-wider text-xs font-semibold">Organization</span>
               <span className="font-medium text-right">{cert.organization}</span>
             </div>
-            
+
             <div className="flex justify-between items-center border-b border-black/10 dark:border-white/10 pb-2">
               <span className="text-slate-500 dark:text-gray-400 uppercase tracking-wider text-xs font-semibold">Date</span>
               <span className="font-medium text-right">{cert.date}</span>
             </div>
-            
+
             <div className="pt-4 flex flex-col items-start w-full">
               <span className="text-slate-500 dark:text-gray-400 uppercase tracking-wider mb-3 block w-full text-left text-xs font-semibold">Skills Highlighted</span>
               <div className="flex flex-wrap gap-2 justify-start w-full">
@@ -188,7 +187,7 @@ const CertificatesSection = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative overflow-hidden bg-slate-100 dark:bg-transparent">
+    <div id="certificates" ref={sectionRef} className="relative overflow-hidden bg-slate-100 dark:bg-transparent">
       {/* Mobile View */}
       <div className="md:hidden py-10 px-4">
         <TypographyH2 className="text-center mb-8">Certificates</TypographyH2>

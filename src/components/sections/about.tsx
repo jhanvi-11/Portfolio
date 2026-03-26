@@ -47,8 +47,9 @@ export default function AboutSection() {
                 </Button>
                 <Button variant="outline" asChild>
                   <Link 
-                    href="https://drive.google.com/file/d/1MTSsUA8V7Po2AsNXT8kZ5sLOpzC8l7qm/view?usp=sharing" 
+                    href="/assets/resume.pdf" 
                     target="_blank"
+                    download
                     className="flex items-center gap-2"
                   >
                     View Resume <Download size={16} />

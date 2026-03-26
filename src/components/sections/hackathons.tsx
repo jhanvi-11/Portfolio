@@ -92,7 +92,7 @@ const HackathonsSection = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative overflow-hidden bg-slate-100 dark:bg-transparent pt-20">
+    <div id="hackathons" ref={sectionRef} className="relative overflow-hidden bg-slate-100 dark:bg-transparent pt-20">
       {/* Mobile View */}
       <div className="md:hidden py-10 px-4">
         <TypographyH2 className="text-center mb-8">Hackathons</TypographyH2>

@@ -35,6 +35,7 @@ const config = {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
+    whatsapp: "https://wa.me/916280846506",
     twitter: "https://x.com/",
     linkedin: "https://www.linkedin.com/in/jhanviarora",
     instagram: "https://www.instagram.com/jhanviarora/",

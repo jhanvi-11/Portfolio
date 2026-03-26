@@ -5,6 +5,7 @@ import RemoteCursors from "@/components/realtime/remote-cursors";
 import EasterEggs from "@/components/easter-eggs";
 import ElasticCursor from "@/components/ui/ElasticCursor";
 import RadialMenu from "@/components/radial-menu/index";
+import WhatsappButton from "./whatsapp-button";
 
 export default function AppOverlays() {
   return (
@@ -17,6 +18,7 @@ export default function AppOverlays() {
       <EasterEggs />
       <ElasticCursor />
       <RadialMenu />
+      <WhatsappButton />
     </>
   );
 }

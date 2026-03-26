@@ -55,8 +55,8 @@ export default function Body({
   };
 
   return (
-    <div className={cn(styles.body, "flex flex-col items-end md:flex-row")}>
-      <FunnyThemeToggle className="w-6 h-6 mr-6 flex md:hidden" />
+    <div className={cn(styles.body, "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-x-8 md:gap-x-12 gap-y-4 md:gap-y-10 place-items-center mt-8 md:mt-0 px-4")}>
+      <FunnyThemeToggle className="w-6 h-6 absolute top-8 right-8 flex md:hidden" />
       {links.map((link, index) => {
         const { title, href, target } = link;
 

@@ -4,7 +4,6 @@ import styles from "./style.module.scss";
 import { height } from "../anim";
 import Body from "./body/body";
 import Footer from "./footer/footer";
-import Image from "./image/image";
 
 import { links } from "@/components/header/config";
 import { cn } from "@/lib/utils";
@@ -32,21 +31,15 @@ const Index: React.FC<IndexProps> = ({ setIsActive }) => {
       exit="exit"
       className={styles.nav}
     >
-      <div className={cn(styles.wrapper, 'flex justify-end sm:justify-start')}>
-        <div className={styles.container}>
+      <div className={cn(styles.wrapper, 'flex justify-center items-center w-full h-full')}>
+        <div className={cn(styles.container, "w-full max-w-[1200px] flex justify-center")}>
           <Body
             links={links}
             selectedLink={selectedLink}
             setSelectedLink={setSelectedLink}
             setIsActive={setIsActive}
           />
-          {/* <Footer /> */}
         </div>
-        <Image
-          src={links[selectedLink.index].thumbnail}
-          isActive={selectedLink.isActive}
-        />
-        {/* <p>{links[selectedLink.index].thumbnail}</p> */}
       </div>
     </motion.div>
   );

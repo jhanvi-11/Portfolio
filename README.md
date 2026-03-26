@@ -4,7 +4,7 @@ A jaw-dropping full-stack developer portfolio packed with interactive 3D animati
 
 > **Open Source & Free to Use!** This portfolio is open source. If you use it, a credit/link back would be really appreciated 🙏
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AarushBhagat/Portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jhanvi-11/Portfolio)
 
 <img width="1895" height="964" alt="image" src="https://github.com/user-attachments/assets/8ba1caa4-5387-4a65-8b77-32eed8247311" />
 
@@ -52,7 +52,7 @@ A jaw-dropping full-stack developer portfolio packed with interactive 3D animati
 #### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AarushBhagat/Portfolio.git
+git clone https://github.com/jhanvi-11/Portfolio.git
 cd 3d-portfolio
 ```
 
@@ -383,7 +383,7 @@ Found a bug? Want to add a feature? All contributions welcome!
 
 This project is open source and available under the [MIT License](LICENSE).
 
-If you use this portfolio, a credit or link back to the [original repo](https://github.com/AarushBhagat/Portfolio) would be much appreciated ❤️
+If you use this portfolio, a credit or link back to the [original repo](https://github.com/jhanvi-11/Portfolio) would be much appreciated ❤️
 
 ---
 
@@ -391,9 +391,9 @@ If you use this portfolio, a credit or link back to the [original repo](https://
 
 For issues, questions, or suggestions:
 - **GitHub Issues** — Report bugs or request features
-- **Email** — aarushbhagat093@gmail.com
-- **LinkedIn** — [Jhanvi Arora](https://www.linkedin.com/in/aarushbhagat03/)
-- **GitHub** — [AarushBhagat](https://github.com/AarushBhagat)
+- **Email** — jhanviarora11105@gmail.com
+- **LinkedIn** — [Jhanvi Arora](https://www.linkedin.com/in/jhanviarora/)
+- **GitHub** — [jhanvi-11](https://github.com/jhanvi-11)
 
 ---
 

@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
-import { File, Github, Linkedin } from "lucide-react";
+import { File, Github, Linkedin, Download } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -82,44 +82,43 @@ const HeroSection = () => {
               </div>
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
-                  href={
-                    "https://drive.google.com/file/d/1Sh43O_VPc4qt_cRTMNn5RUvOtu0vdGAR/view?usp=drive_link"
-                  }
+                  href="/assets/resume.pdf"
                   target="_blank"
+                  download
                   className="flex-1"
                 >
                   <BoxReveal delay={2} width="100%" >
-                    <Button className="flex items-center gap-2 w-full">
-                      <File size={24} />
+                    <Button className="flex items-center gap-2 w-full font-semibold">
                       <p>Resume</p>
+                      <Download size={18} />
                     </Button>
                   </BoxReveal>
                 </Link>
                 <div className="md:self-start flex gap-3">
                   <Tooltip delayDuration={300}>
                     <TooltipTrigger asChild>
-                      <Link href={"#contact"}>
+                      <a href="#contact">
                         <Button
                           variant={"outline"}
                           className="block w-full overflow-hidden"
                         >
                           Hire Me
                         </Button>
-                      </Link>
+                      </a>
                     </TooltipTrigger>
                     <TooltipContent side="bottom">
                       <p>pls 🥹 🙏</p>
                     </TooltipContent>
                   </Tooltip>
                   <div className="flex items-center h-full gap-2">
-                    <Link
+                    {/* <Link
                       href={config.social.twitter}
                       target="_blank"
                     >
                       <Button variant={"outline"}>
                         <SiX size={24} />
                       </Button>
-                    </Link>
+                    </Link> */}
                     <Link
                       href={config.social.github}
                       target="_blank"
