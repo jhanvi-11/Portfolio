@@ -269,7 +269,7 @@ const projects: Project[] = [
     id: "unied",
     category: "Education Management",
     title: "UniEd",
-    src: "/assets/unied/UniEd.png", 
+    src: "/assets/unied/webLanding.png",
     screenshots: ["webLanding.png", "modals.png", "dashboard.png", "lisaAI.png"],
     skills: {
       frontend: [
@@ -299,7 +299,7 @@ const projects: Project[] = [
             This project gave me hands-on exposure to designing a scalable, real-time full-stack application, from system architecture to secure authentication.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          
+
           <TypographyH3 className="my-4 mt-8">Web Landing & Modals</TypographyH3>
           <p className="font-mono mb-2">
             A clean, responsive landing page introduces the platform. The modals showcase the smooth user interaction for login, registration, and quick actions.
@@ -330,7 +330,7 @@ const projects: Project[] = [
 
           <TypographyH3 className="my-4 mt-8">Lisa AI Assistant</TypographyH3>
           <p className="font-mono mb-2">
-             Meet Lisa AI, the intelligent companion for students. It assists with answering queries, summarising lectures, and providing personalized study recommendations, available 24/7.
+            Meet Lisa AI, the intelligent companion for students. It assists with answering queries, summarising lectures, and providing personalized study recommendations, available 24/7.
           </p>
           <SlideShow
             images={[
@@ -357,9 +357,9 @@ const projects: Project[] = [
     id: "parivartan",
     category: "Civic Tech",
     title: "Parivartan",
-    src: "/assets/Parivartan/Parivartan.png", 
+    src: "/assets/Parivartan/pLanding.png",
     screenshots: ["pLanding.png", "report.png", "report2.png", "map.png", "community.png", "communit_issue.png"],
-    live: "", 
+    live: "",
     github: "https://github.com/AarushBhagat/Parivartan",
     skills: {
       frontend: [
@@ -380,12 +380,12 @@ const projects: Project[] = [
             PARIVARTAN (meaning “Transformation”) bridges the gap between citizens, government departments, and field staff, enabling efficient issue reporting, tracking, and resolution through integrated web and mobile applications.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          
+
           <TypographyH3 className="my-4 mt-8">System Components</TypographyH3>
           <ul className="list-disc ml-6 font-mono mb-4">
-             <li><strong>Department Dashboard (Web):</strong> Multi-role login for Admin, Staff & Department; issue management dashboard and staff assignment; real-time progress tracking with secure authentication.</li>
-             <li><strong>Citizen App (React Native):</strong> Simple complaint reporting with photo, GPS location & description; real-time status updates and notifications; option for anonymous reporting.</li>
-             <li><strong>App-Staff (React Native):</strong> Field staff can view assigned issues, update status & upload proof images; GPS navigation to issue location; timestamped progress tracking.</li>
+            <li><strong>Department Dashboard (Web):</strong> Multi-role login for Admin, Staff & Department; issue management dashboard and staff assignment; real-time progress tracking with secure authentication.</li>
+            <li><strong>Citizen App (React Native):</strong> Simple complaint reporting with photo, GPS location & description; real-time status updates and notifications; option for anonymous reporting.</li>
+            <li><strong>App-Staff (React Native):</strong> Field staff can view assigned issues, update status & upload proof images; GPS navigation to issue location; timestamped progress tracking.</li>
           </ul>
 
           <TypographyH3 className="my-4 mt-8">App Interface & Dashboard</TypographyH3>
@@ -424,16 +424,16 @@ const projects: Project[] = [
             <li><strong>Staff app:</strong> Receives, resolves & updates the issue</li>
             <li><strong>Citizen updates:</strong> Gets resolution update & can review it</li>
           </ul>
-            <p className="font-mono mb-2 mt-4 text-center italic">
+          <p className="font-mono mb-2 mt-4 text-center italic">
             ✅ A transparent, efficient, and complete issue-resolution cycle!
           </p>
-          
+
           <TypographyH3 className="my-4 mt-8">Impact</TypographyH3>
-           <ul className="list-disc ml-6 font-mono mb-4">
+          <ul className="list-disc ml-6 font-mono mb-4">
             <li>⏱️ 60% reduction in issue resolution time</li>
             <li>📊 80% improvement in citizen satisfaction</li>
             <li>🧭 Increased transparency & accountability in governance</li>
-           </ul>
+          </ul>
 
         </div>
       );
@@ -443,8 +443,8 @@ const projects: Project[] = [
     id: "startupops",
     category: "AI Startup Management",
     title: "StartupOps",
-    src: "/assets/StartupOps/startupOps.png",
-    screenshots: ["sl1.png", "sl2.png", "sl3.png", "sl4.png"],
+    src: "/assets/StartupOps/logo.png",
+    screenshots: ["logo.png", "s1.png", "s2.png", "s3.png", "s4.png"],
     live: "https://startupops-omega.vercel.app/",
     github: "https://github.com/AarushBhagat/StartupOps",
     skills: {
@@ -472,17 +472,15 @@ const projects: Project[] = [
             A modern, AI-powered platform designed for startup founders and teams to automate roadmap creation, manage tasks in real-time, and track project metrics with a premium, high-end user experience.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          
+
           <TypographyH3 className="my-4 mt-8">Dashboard & Features</TypographyH3>
-           <p className="font-mono mb-2">
+          <p className="font-mono mb-2">
             Experience a premium glassmorphism UI with real-time updates and AI-driven insights.
-           </p>
+          </p>
           <SlideShow
             images={[
-              `/assets/StartupOps/sl1.png`,
-              `/assets/StartupOps/sl2.png`,
-              `/assets/StartupOps/sl3.png`,
-              `/assets/StartupOps/sl4.png`,
+              `/assets/StartupOps/s1.png`,
+              `/assets/StartupOps/s2.png`,
             ]}
           />
 
@@ -492,9 +490,8 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `/assets/StartupOps/tell.png`,
-              `/assets/StartupOps/template.png`,
-              `/assets/StartupOps/plan.png`,
+              `/assets/StartupOps/s3.png`,
+              `/assets/StartupOps/s4.png`,
             ]}
           />
 
@@ -502,36 +499,29 @@ const projects: Project[] = [
           <p className="font-mono mb-2">
             A dynamic Kanban board for seamless task tracking and team collaboration.
           </p>
-           <SlideShow
+          <SlideShow
             images={[
-              `/assets/StartupOps/l1.png`,
-              `/assets/StartupOps/task.png`,
-              `/assets/StartupOps/task2.png`,
+              `/assets/StartupOps/s5.png`,
             ]}
           />
 
           <TypographyH3 className="my-4 mt-8">Feedback & Analysis</TypographyH3>
-           <p className="font-mono mb-2">
-             Gather feedback and analyze your startup's readiness with investor-grade scoring.
-           </p>
-           <SlideShow
+          <p className="font-mono mb-2">
+            Gather feedback and analyze your startup's readiness with investor-grade scoring.
+          </p>
+          <SlideShow
             images={[
-              `/assets/StartupOps/feedback.png`,
-              `/assets/StartupOps/inverstor1.png`,
-              `/assets/StartupOps/inverstor2.png`,
-              `/assets/StartupOps/inverstor3.png`,
-              `/assets/StartupOps/generatepitch.png`,
+              `/assets/StartupOps/s6.png`,
             ]}
           />
 
           <TypographyH3 className="my-4 mt-8">Advanced Analytics</TypographyH3>
-           <p className="font-mono mb-2">
+          <p className="font-mono mb-2">
             Visual metrics to track your progress and milestones.
-           </p>
-           <SlideShow
+          </p>
+          <SlideShow
             images={[
-              `/assets/StartupOps/analysis.png`,
-              `/assets/StartupOps/analysis2.png`,
+              `/assets/StartupOps/s7.png`,
             ]}
           />
 
@@ -547,7 +537,7 @@ const projects: Project[] = [
 
           <TypographyH3 className="my-4 mt-8">Tech Stack</TypographyH3>
           <p className="font-mono mb-2">
-             React 18 | TypeScript | TailwindCSS | Node.js | Express.js | Firebase | Google Gemini AI
+            React 18 | TypeScript | TailwindCSS | Node.js | Express.js | Firebase | Google Gemini AI
           </p>
         </div>
       );
@@ -559,8 +549,8 @@ const projects: Project[] = [
     title: "My Portfolio",
     src: "/portfolio/p1.png",
     screenshots: ["p1.png", "p2.png", "p3.png", "p4.png", "p5.png"],
-    live: "http://nareshkhatri.vercel.app",
-    github:"https://github.com/Naresh-Khatri/Portfolio",
+    live: "https://portfolio-kwfi.vercel.app/",
+    github: "https://github.com/jhanvi-arora/Portfolio",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -623,10 +613,10 @@ const projects: Project[] = [
     id: "planpilot",
     category: "Fullstack",
     title: "PlanPilot – AI-Powered Timetable Planning System",
-    src: "/assets/PlanPilot/PlanPilot.png",
-    screenshots: ["PlanPilot.png", "pl1.png", "pl2.png", "pl3.png", "pl4.png"],
+    src: "/assets/PlanPilot/pl1.png",
+    screenshots: ["pl1.png", "pl2.png", "pl3.png", "pl4.png"],
     live: "",
-    github:"https://github.com/AarushBhagat/Smart-Time-Table-Generator",
+    github: "https://github.com/AarushBhagat/Smart-Time-Table-Generator",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.tailwind],
       backend: [PROJECT_SKILLS.php], // You can add other skills if they exist in PROJECT_SKILLS, like OAuth, Gemini, dompdf
@@ -640,7 +630,6 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/PlanPilot/PlanPilot.png`,
               `/assets/PlanPilot/pl1.png`,
               `/assets/PlanPilot/pl2.png`,
               `/assets/PlanPilot/pl3.png`,
@@ -666,9 +655,9 @@ const projects: Project[] = [
     id: "ecoroute",
     category: "Route Optimization",
     title: "Eco-Route – Fuel-Efficient Route Optimization",
-    src: "/assets/seo/EcoRoute/EcoRoute.png",
+    src: "/assets/seo/EcoRoute/e1.png",
     screenshots: ["e1.png", "e2.png", "e3.png", "e4.png", "el1.jpeg", "analyse.png", "feul.png"],
-    live: "",
+    live: "https://eco-route-liart.vercel.app/",
     github: "https://github.com/AarushBhagat/Eco-Route",
     skills: {
       frontend: [PROJECT_SKILLS.js],
@@ -681,7 +670,7 @@ const projects: Project[] = [
             A smart eco-routing system using graph algorithms to generate fuel-efficient routes. Improved travel efficiency by 35% with an interactive frontend for route visualization.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          
+
           <TypographyH3 className="my-4 mt-8">Landing Pages</TypographyH3>
           <p className="font-mono mb-2">
             The platform features clean, user-friendly interfaces to guide the route optimization process.

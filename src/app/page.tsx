@@ -12,6 +12,7 @@ import ContactSection from "@/components/sections/contact";
 import HeroSection from "@/components/sections/hero";
 import AboutSection from "@/components/sections/about";
 import CertificatesSection from "@/components/sections/certificates";
+import AchievementsSection from "@/components/sections/achievements";
 import HackathonsSection from "@/components/sections/hackathons";
 
 function MainPage() {
@@ -26,6 +27,7 @@ function MainPage() {
         <ExperienceSection />
         <ProjectsSection />
         <CertificatesSection />
+        <AchievementsSection />
         <HackathonsSection />
         <ContactSection />
       </main>

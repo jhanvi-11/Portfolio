@@ -20,7 +20,7 @@ type PreloaderContextType = {
 const INITIAL: PreloaderContextType = {
   isLoading: true,
   loadingPercent: 0,
-  bypassLoading: () => {},
+  bypassLoading: () => { },
 };
 export const preloaderContext = createContext<PreloaderContextType>(INITIAL);
 
